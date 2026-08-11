@@ -110,29 +110,7 @@ Different metrics were used according to the specific segmentation task.
 - F1-score
 - Per-class evaluation
 
-## 👥 Task Distribution
-
-The project was developed as a group project, with each member focusing on a specific component:
-
-| Contributor | Main Contribution |
-|---|---|
-| **Enrico Gentile** | Semantic Segmentation & Explainable AI |
-| **Marcello Iacovelli** | Semantic Segmentation |
-| **Davide Schimmenti** | YOLO11 / Instance Segmentation |
-| **Hamza En Nakhly** | MobileSAM / Zero-Shot Segmentation |
-
-The Semantic Segmentation component was developed jointly by Enrico Gentile and Marcello Iacovelli, while Enrico Gentile was additionally responsible for the Explainable AI component based on Activation Maximization.
-
-## 📁 Repository Structure
-
-- `/src/Semantic_Segmentation`: implementation of the FCN-ResNet50 semantic segmentation pipeline, training, loss functions, evaluation and hyperparameter experiments.
-- `/src/YOLO_Instance_Segmentation`: implementation and experiments related to YOLO11 instance segmentation and fine-tuning on Cityscapes.
-- `/src/MobileSAM`: MobileSAM inference, prompt generation and evaluation.
-- `/src/Explainable_AI`: Activation Maximization experiments and analysis on FCN-ResNet50.
-- `/docs`: Project presentation, documentation and additional material.
-- `/media`: Inference Images, plots and qualitative results from the experiments.
-
-## 📚 Datasets
+- ## 📚 Datasets
 
 ### COCO 2017
 
@@ -160,14 +138,26 @@ The dataset consists of high-resolution street-scene images collected from 50 di
 - Explainable AI
 - Activation Maximization
 
-## 📄 Project Presentation
+## 👥 Task Distribution
 
-The complete project presentation is available in the `/docs` directory.
+The project was developed as a group project, with each member focusing on a specific component:
 
-## 🎓 Course
+| Contributor | Main Contribution |
+|---|---|
+| **Enrico Gentile** | Semantic Segmentation & Explainable AI |
+| **Marcello Iacovelli** | Semantic Segmentation |
+| **Davide Schimmenti** | YOLO11 / Instance Segmentation |
+| **Hamza En Nakhly** | MobileSAM / Zero-Shot Segmentation |
 
-**Image Processing for Computer Vision – 2025/2026**
+The Semantic Segmentation component was developed jointly by Enrico Gentile and Marcello Iacovelli, while Enrico Gentile was additionally responsible for the Explainable AI component based on Activation Maximization.
 
-University of Naples Federico II
+## 📁 Repository Structure
+
+- `/src/Semantic_Segmentation`: implementation of the FCN-ResNet50 semantic segmentation pipeline, training, loss functions, evaluation and hyperparameter experiments.
+- `/src/YOLO_Instance_Segmentation`: implementation and experiments related to YOLO11 instance segmentation and fine-tuning on Cityscapes.
+- `/src/MobileSAM`: MobileSAM inference, prompt generation and evaluation.
+- `/src/Explainable_AI`: Activation Maximization experiments and analysis on FCN-ResNet50.
+- `/docs`: Project presentation, documentation and additional material.
+- `/media`: Inference Images, plots and qualitative results from the experiments.
 
 **Professors:** Giuseppe Scarpa, Matteo Ciotola
